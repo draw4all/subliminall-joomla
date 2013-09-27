@@ -4,7 +4,7 @@
 
 -- Dumped from database version 9.3.0
 -- Dumped by pg_dump version 9.3beta2
--- Started on 2013-09-26 10:53:58 CEST
+-- Started on 2013-09-27 07:59:54 CEST
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -4155,8 +4155,7 @@ COPY bd6ke_schemas (extension_id, version_id) FROM stdin;
 --
 
 COPY bd6ke_session (session_id, client_id, guest, "time", data, userid, username, usertype) FROM stdin;
-0d15be7720c805d52bb849d4f37fab95	0	1	1380185357	__default|a:8:{s:15:"session.counter";i:2;s:19:"session.timer.start";i:1380184515;s:18:"session.timer.last";i:1380184515;s:17:"session.timer.now";i:1380185357;s:22:"session.client.browser";s:117:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1";s:8:"registry";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":0:{}}s:4:"user";O:5:"JUser":24:{s:9:"\\0\\0\\0isRoot";b:0;s:2:"id";i:0;s:4:"name";N;s:8:"username";N;s:5:"email";N;s:8:"password";N;s:14:"password_clear";s:0:"";s:5:"block";N;s:9:"sendEmail";i:0;s:12:"registerDate";N;s:13:"lastvisitDate";N;s:10:"activation";N;s:6:"params";N;s:6:"groups";a:1:{i:0;s:1:"9";}s:5:"guest";i:1;s:13:"lastResetTime";N;s:10:"resetCount";N;s:10:"\\0\\0\\0_params";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":0:{}}s:14:"\\0\\0\\0_authGroups";a:2:{i:0;i:1;i:1;i:9;}s:14:"\\0\\0\\0_authLevels";a:3:{i:0;i:1;i:1;i:1;i:2;i:5;}s:15:"\\0\\0\\0_authActions";N;s:12:"\\0\\0\\0_errorMsg";N;s:10:"\\0\\0\\0_errors";a:0:{}s:3:"aid";i:0;}s:13:"session.token";s:32:"56d12ebf6c5fcff9df6d8dcf41ccd072";}	0		
-cdaa0a57c3b3bd32cda3a58d496e90e5	1	0	1380184530	__default|a:8:{s:15:"session.counter";i:5;s:19:"session.timer.start";i:1380184515;s:18:"session.timer.last";i:1380184528;s:17:"session.timer.now";i:1380184530;s:22:"session.client.browser";s:117:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1";s:8:"registry";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":2:{s:11:"application";O:8:"stdClass":1:{s:4:"lang";s:0:"";}s:13:"com_installer";O:8:"stdClass":2:{s:7:"message";s:0:"";s:17:"extension_message";s:0:"";}}}s:4:"user";O:5:"JUser":25:{s:9:"\\0\\0\\0isRoot";b:1;s:2:"id";s:3:"194";s:4:"name";s:10:"Super User";s:8:"username";s:4:"root";s:5:"email";s:13:"root@root.com";s:8:"password";s:65:"15352156e2c6d2f5acece48581627a80:bAUnDuE1h9Pve2pH1HvyCc8D8RScMxhh";s:14:"password_clear";s:0:"";s:5:"block";s:1:"0";s:9:"sendEmail";s:1:"1";s:12:"registerDate";s:19:"2013-09-26 08:35:07";s:13:"lastvisitDate";s:19:"1970-01-01 00:00:00";s:10:"activation";s:1:"0";s:6:"params";s:0:"";s:6:"groups";a:1:{i:8;s:1:"8";}s:5:"guest";i:0;s:13:"lastResetTime";s:19:"1970-01-01 00:00:00";s:10:"resetCount";s:1:"0";s:10:"\\0\\0\\0_params";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":0:{}}s:14:"\\0\\0\\0_authGroups";a:2:{i:0;i:1;i:1;i:8;}s:14:"\\0\\0\\0_authLevels";a:4:{i:0;i:1;i:1;i:1;i:2;i:2;i:3;i:3;}s:15:"\\0\\0\\0_authActions";N;s:12:"\\0\\0\\0_errorMsg";N;s:10:"\\0\\0\\0_errors";a:0:{}s:3:"aid";i:0;s:8:"usertype";s:0:"";}s:13:"session.token";s:32:"522149c6ec589427d8f1fa246f31f0a7";}	194	root	
+0d15be7720c805d52bb849d4f37fab95	0	1	1380191608	__default|a:8:{s:15:"session.counter";i:5;s:19:"session.timer.start";i:1380184515;s:18:"session.timer.last";i:1380187037;s:17:"session.timer.now";i:1380191598;s:22:"session.client.browser";s:117:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1";s:8:"registry";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":0:{}}s:4:"user";O:5:"JUser":24:{s:9:"\\0\\0\\0isRoot";b:0;s:2:"id";i:0;s:4:"name";N;s:8:"username";N;s:5:"email";N;s:8:"password";N;s:14:"password_clear";s:0:"";s:5:"block";N;s:9:"sendEmail";i:0;s:12:"registerDate";N;s:13:"lastvisitDate";N;s:10:"activation";N;s:6:"params";N;s:6:"groups";a:1:{i:0;s:1:"9";}s:5:"guest";i:1;s:13:"lastResetTime";N;s:10:"resetCount";N;s:10:"\\0\\0\\0_params";O:9:"JRegistry":1:{s:7:"\\0\\0\\0data";O:8:"stdClass":0:{}}s:14:"\\0\\0\\0_authGroups";a:2:{i:0;i:1;i:1;i:9;}s:14:"\\0\\0\\0_authLevels";a:3:{i:0;i:1;i:1;i:1;i:2;i:5;}s:15:"\\0\\0\\0_authActions";N;s:12:"\\0\\0\\0_errorMsg";N;s:10:"\\0\\0\\0_errors";a:0:{}s:3:"aid";i:0;}s:13:"session.token";s:32:"56d12ebf6c5fcff9df6d8dcf41ccd072";}	0		
 \.
 
 
@@ -6424,7 +6423,7 @@ GRANT ALL ON SCHEMA public TO serveur555;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
--- Completed on 2013-09-26 10:53:59 CEST
+-- Completed on 2013-09-27 07:59:55 CEST
 
 --
 -- PostgreSQL database dump complete
